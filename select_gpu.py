@@ -19,7 +19,7 @@ print('===== available GPUs ===== \n GPU {}'.format(available_gpus))
 # input desired number of GPUs
 print('Desired number of GPUs: ')
 n_gpus = int(input())
-print('===== acquire GPUs =====')
+print('===== acquired GPUs =====')
 use_gpu = available_gpus[:n_gpus]
 if n_gpus <= len(available_gpus):
     os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(str(x) for x in use_gpu)
