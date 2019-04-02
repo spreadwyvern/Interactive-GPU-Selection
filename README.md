@@ -19,6 +19,6 @@ b'GeForce GTX 1080 Ti': 11172.4 MB free, 0.0 MB used, 11172.4 MB total
 ```
 Desired number of GPUs: 
 2
-===== acquire GPUs =====
+===== acquired GPUs =====
 Training on GPU [0, 1]
 ```
